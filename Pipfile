@@ -10,6 +10,7 @@ black = "*"
 [packages]
 ipython = "*"
 requests = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.8"

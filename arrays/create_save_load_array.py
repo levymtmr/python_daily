@@ -9,12 +9,12 @@ floats = array('d', (random() for i in range(10**7)))
 
 print('floats: ', floats[-1])
 
-fp = open('floats.bin', 'wb')
+fp = open('floats.txt', 'wb')
 floats.tofile(fp)
 fp.close()
 
 floats2 = array('d')
-fp = open('floats.bin', 'rb')
+fp = open('floats.txt', 'rb')
 floats2.fromfile(fp, 10**7)
 fp.close()
 
