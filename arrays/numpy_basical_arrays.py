@@ -20,5 +20,6 @@ print('transpose \n', a.transpose())
 
 # Load and save 
 
-floats = numpy.loadtxt('floats.txt')
-print(floats[3])
+floats = numpy.loadtxt('floats.txt', unpack=True)
+floats[-3:]
+print('last 3 numbers: ' )
