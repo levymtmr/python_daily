@@ -1,4 +1,5 @@
-data = ['read', 'profile:read_all', 'activity:read_all']
-data_test = ['read', 'activity:read_all', 'profile:read_all']
+data = ['part a', 'part b', 'part c']
+test_data = ['test A', 'test B', 'test C']
 
-print(set(data) == set(data_test))
+calling = 'levy'.join([data, test_data])
+print(calling)
