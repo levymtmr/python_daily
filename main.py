@@ -1,5 +1,3 @@
-data = ['part a', 'part b', 'part c']
-test_data = ['test A', 'test B', 'test C']
+dictionary = {"A": 1, "B": 2}
 
-calling = 'levy'.join([data, test_data])
-print(calling)
+test = {i: _ for _, i in dictionary.items()}

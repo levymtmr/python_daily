@@ -45,7 +45,6 @@ Vector(9, 12)
 print("Multiple vetor v by 3: ", abs(v * 3))
 
 
-test = [1,2,3,4]
+test = [1, 2, 3, 4]
 for i in test:
     print(i)
-

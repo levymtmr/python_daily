@@ -1,0 +1,4 @@
+The variable names need to be clear, names should revel you purpose
+ - Why exists
+ - What you do
+ - How will be used

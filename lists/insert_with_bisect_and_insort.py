@@ -1,5 +1,5 @@
-import bisect 
-import random 
+import bisect
+import random
 
 SIZE = 7
 
@@ -9,4 +9,4 @@ my_list = []
 for i in range(SIZE):
     new_item = random.randrange(SIZE * 2)
     bisect.insort(my_list, new_item)
-    print('%2s ->' % new_item, my_list)
+    print("%2s ->" % new_item, my_list)
