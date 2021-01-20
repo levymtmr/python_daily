@@ -6,9 +6,9 @@ Card = collections.namedtuple("Card", ["rank", "suit"])
 
 class FrenchDeck:
     """
-    Os métodos nomeados como métodos especiais, realizão um comportamento automaticou
-    Ou são desencadeado por certas funções padrões da propria linguagem python. Como
-    len() e get em dicionarios utilizando [] ex: deck[0].
+    Os métodos nomeados como métodos especiais, realizam um comportamento
+    automatico. Ou são desencadeado por certas funções padrões da propria.
+    Como len() e get em dicionarios utilizando [] ex: deck[0].
     """
 
     ranks = [str(n) for n in range(2, 11)] + list("JQKA")  # fileiras

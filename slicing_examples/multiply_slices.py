@@ -1,6 +1,6 @@
-l = [1, 2, 3, 4, 5]
-print(l)
-print(l * 5)  # only in execution time
+lista = [1, 2, 3, 4, 5]
+print(lista)
+print(lista * 5)  # only in execution time
 
 text = "abdc"
 print(text)
